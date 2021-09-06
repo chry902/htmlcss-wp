@@ -1,0 +1,107 @@
+.body{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.sitemain{
+    border-radius: 1rem;
+    color:white ;
+    background-image: url("./img/banner.jpg");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    margin-top:1rem ;
+    margin-bottom:1rem;
+    
+}
+.contain{
+    
+    width: 100%;
+    
+}
+
+.top{
+    height:50px;
+    margin-bottom: 1rem;
+}
+.left, .rigth{
+    width: 23%;
+    float:left
+}
+.midle{
+    width: 50%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;   
+}
+.img, .imgleft, .imgmiddle, .imgrigth{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    border-radius: 1rem;
+
+}
+
+.bottom{
+    text-align: center;
+    height:50px;
+    margin-top: 3px; 
+}
+
+/* --logo*/
+.logo{
+    width: 150px;
+    margin-top: 3px;
+    margin-bottom: 1rem;
+}
+
+.menu {
+    margin-right: 1rem; 
+    margin-bottom: 2rem; 
+}
+/*--- immagini sfondo banner*/
+
+/*    didascalia */
+.didascalia{
+ margin-left: 2rem;
+ position: absolute;
+ bottom: 4rem;
+}
+
+/*immagine sinistra    */
+.imgleft{
+    background-image: url("./img/img-1.jpg"); 
+}   
+/* imagine centro*/
+.imgmiddle{
+    background-image: url("./img/banner-2.jpg"); 
+}
+
+/* img destra*/
+.imgrigth{
+    background-image: url("./img/img-3.jpg");
+} 
+.testo{
+    color: rgb(174, 171, 171);
+    
+}
+h3{
+    color: rgb(128, 126, 126);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
